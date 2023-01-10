@@ -18,3 +18,4 @@ while 1:
         send_ned_velocity(NORTH,EAST,UP,3)
         if vehicle.location.global_relative_frame.alt <=  0.45:
             break
+#수정1
